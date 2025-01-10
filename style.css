@@ -14,7 +14,7 @@
 }
 
 button:hover {
-    background-color: rgba(0, 128, 0, 0.274);
+    background-color: rgb(255, 153, 0);
 }
 
 /* nav style */
@@ -98,12 +98,12 @@ button:hover {
 }
 
 .sec-header{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 0;
     font-size: 40px;
     font-weight: 700;
     text-align: left;
-    margin-bottom: 3px;
+    margin-bottom: 15px;
 }
 
 .pillars {
@@ -111,6 +111,7 @@ button:hover {
     height: auto; */
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    font-size: 16px;
     background: rgb(255, 255, 255);
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     text-align: left;
@@ -120,6 +121,26 @@ button:hover {
 }
 .pillars-h4{
     margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 0;
+    margin-bottom: 20px;
+}
+.sec-2-pass{
+    margin-left: 0;
+}
+.pillars button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+.sec-03{
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-image: url(./image/quote-bg.png);
+    background-color: white;
+    background-repeat: no-repeat;
+}
+.sec-03 p{
+    margin-left: 0;
 }
